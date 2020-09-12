@@ -17,11 +17,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aniruddh's Portfolio</title>
-    <!-- Bootstrap -->
+	  
+    <!-- CSS Links -->
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	<link href="css/plugin.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	   <!-- Google Analytics -->
     <!-- Rememer to add -->
   </head>
@@ -49,7 +51,7 @@
     </div>
 </div>
 	  <!-- navbar part -->
-<div class="navigation-part sticky-top">
+	<div class="navigation-part sticky-top">
 	<div class="topnav"><div class="topnav-centered">
     <nav class="navbar navbar-expand-sm navbar-dark" id="navScroll">
         <div class="container">
@@ -66,10 +68,10 @@
                         <a class="nav-link aboutLink" href="#about"><font size="+2">About</font></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link projectLink" href="../#project"><font size="+2">Projects</font></a>
+                        <a class="nav-link projectLink" href="#project"><font size="+2">Projects</font></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link contactLink" href="#footer"><font size="+2">Contact</font></a>
+                        <a class="nav-link contactLink" href="#contact"><font size="+2">Contact</font></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../resume.pdf" download><font size="+2">Résumé</font></a>
@@ -81,7 +83,7 @@
 </div>
 	  
 	  <!-- about part -->
-<div class="about-part" id="about">
+	<div class="about-part" id="about">
     <h1 class="primary-text" data-aos="fade-right">ABOUT</h1>
     <div class="bot-line" data-aos="fade-left" data-aos-delay="1000"></div>
     <div class="about-detail">
@@ -320,17 +322,235 @@
     </div>
 </div>
 	  
-	  <!-- Contact Part -->
+	 <!-- Project Part -->
+<div class="project-part" id="project">
+    <h1 class="primary-text" data-aos="fade-right">PROJECTS</h1>
+    <div class="bot-line" data-aos="fade-left" data-aos-delay="1000"></div>
+    <div class="">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist" data-aos="zoom-in" data-aos-offset="200">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-all">Photoshop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-js">Logo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-bootstrap">Visiting Cards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-php">Invitations</a>
+            </li>
+        </ul>
 
-<div class="contact-part">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all">
+                <div class="row m-0">
+                    <div class="m-auto col-lg-10">
+                        <div class="card-deck">
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/SunBlock.jpg" data-lightbox="image-1" data-title="The sun block has been put artificially. An example of Adjustment Layers."><img class="card-img-top card_img" src="pictures/photoshop/SunBlock.jpg"></a>
+        
+    </div>
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/fish.jpg" data-lightbox="image-1" data-title="The fish has been put artificially. A great example of Shadows & Selection tools."><img class="card-img-top card_img" src="pictures/photoshop/fish.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-block d-xl-none"></div>
+
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/baugasm.jpg" data-lightbox="image-1" data-title="This photo is an example of Baugasm Circles."><img class="card-img-top card_img" src="pictures/photoshop/baugasm.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-block"></div>
+							<div class="card animate_card" data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/flami.jpg" data-lightbox="image-1" data-title="An amazing example of Photo Montage. The flamigos have been put artificially."><img class="card-img-top card_img" src="pictures/photoshop/flami.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/poster.jpg" data-lightbox="image-1" data-title="This poster has been designed from scratch by me. Any poster can be desigined as per your needs."><img class="card-img-top card_img" src="pictures/photoshop/poster.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/photoshop/1.jpg" data-lightbox="image-1" data-title="Any object in the picture can be put to glow."><img class="card-img-top card_img" src="pictures/photoshop/1.jpg" ></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="pills-js">
+                <div class="row m-0">
+                    <div class="m-auto col-lg-10">
+                        <div class="card-deck">
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/Logo/17.png" data-lightbox="image-2" data-title="Logo for an Event Management Company."><img class="card-img-top card_img1" src="pictures/Logo/17.png"></a>
+        
+    </div>
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/Logo/LogoWithTag.png" data-lightbox="image-2" data-title="Logo for an Event Management Company."><img class="card-img-top card_img1" src="pictures/Logo/LogoWithTag.png"></a>
+        
+    </div>
+
+                            <div class="w-100 d-block d-xl-block"></div>
+
+                                
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/Logo/mo1.jpg" data-lightbox="image-2" data-title="Logo for a meme page."><img class="card-img-top card_img1" src="pictures/Logo/mo1.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/Logo/pi2.jpg" data-lightbox="image-2" data-title="Logo for a meme page."><img class="card-img-top card_img1" src="pictures/Logo/pi2.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="tab-pane fade show active" id="pills-bootstrap">
+                <div class="row m-0">
+                    <div class="m-auto col-lg-10">
+                        <div class="card-deck">
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/cards/11.jpg" data-lightbox="image-3" data-title="Front of a visting card for an Event Management Company."><img class="card-img-top card_img2" src="pictures/cards/11.jpg"></a>
+        
+    </div>
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/cards/12.jpg" data-lightbox="image-3" data-title="Back of a visting card for an Event Management Company."><img class="card-img-top card_img2" src="pictures/cards/12.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-block d-xl-block"></div>
+
+                                
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/cards/18.jpg" data-lightbox="image-3" data-title="Front of a visting card for an Event Management Company."><img class="card-img-top card_img2" src="pictures/cards/18.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/cards/16.jpg" data-lightbox="image-3" data-title="Back of a visting card for an Event Management Company."><img class="card-img-top card_img2" src="pictures/cards/16.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="pills-php">
+                <div class="row m-0">
+                    <div class="m-auto col-lg-10">
+                        <div class="card-deck">
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/1.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/1.jpg"></a>
+        
+    </div>
+                                <div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/2.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/2.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-block d-xl-block"></div>
+
+                                
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/3.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/3.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/5.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/5.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-block"></div>
+							
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/8.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/8.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/9.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img3" src="pictures/ivi/9.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-block"></div>
+							
+							
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/4.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img4" src="pictures/ivi/4.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/6.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img4" src="pictures/ivi/6.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/7.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img4" src="pictures/ivi/7.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+							<div class="card animate_card"  data-aos-delay="100" data-aos-duration="2000" data-aos-offset="300">
+        <a href="pictures/ivi/10.jpg" data-lightbox="image-4" data-title="An Invitaion Card."><img class="card-img-top card_img4" src="pictures/ivi/10.jpg"></a>
+        
+    </div>
+
+                            <div class="w-100 d-none d-xl-none"></div>
+							
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                
+                
+        </div>
+    </div>
+</div>
+		
+		
+	  
+  <!-- Contact Part -->
+
+	<div class="contact-part">
     <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
     </svg>
     <div id="contact">
         <h1 data-aos="fade-right">CONTACT</h1>
         <div class="bot-line" data-aos="fade-left" data-aos-delay="500"></div>
-        <h6 data-aos="zoom-in" data-aos-delay="1000">Have a question or want to work together?</h6>
-        <form class="contact-form" action="fu1.php" data-aos="fade-in" data-aos-delay="1500" method="post">
+        <h6 data-aos="zoom-in" data-aos-delay="1000"><font color="#DB7093">Have a question or want to work together?</font></h6>
+        <form class="contact-form" action="fu2.php" data-aos="fade-in" data-aos-delay="1500" method="post">
             <div class="row m-0">
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
                     <div class="form-group">
@@ -355,7 +575,7 @@
 </div>
 	  
 	  <!-- Footer Part -->
-<footer id="footer">
+	<footer id="footer">
     <div class="footer-up" data-aos="fade-up" data-aos-duration="2000">
         <a href="#home" class="btn btn-lg"><i class="fas fa-angle-double-up"><img src="pictures/next.png" class="img-fluid" alt="Placeholder image" width="20px"></i></a>
     </div>
@@ -378,6 +598,7 @@
 	<script src="js/bootstrap-4.3.1.js"></script>
 	<script src="js/particles.js"></script>
 	<script src="js/script.js"></script>
+    <script src="js/lightbox.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
