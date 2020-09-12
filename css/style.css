@@ -304,72 +304,24 @@ canvas {
 }
 
 .navigation-part {
-  background-color: #000000;
-    text-align:center;
+  background-color: #000;
 }
 
-
+.navigation-part .navbar {
+  border-bottom: 3px solid #2F005E;
+}
 
 .navigation-part .navbar-nav .nav-link {
   color: var(--white);
   font-size: 1rem;
   margin-right: 1.5rem;
-
 }
 
 .navigation-part .navbar-nav .nav-link:hover {
   color: var(--secondary) !important;
   transition: .8s;
 }
-.navbar-nav{
-	text-align:center;
-	
-}
-.nav-item{
 
-}
-.navbar{
-	text-align:center;
-	
-}
-.topnav {
-  position: relative;
-  background-color: #000; 
-	height: 50px;
-	
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-	
-}
-
-.topnav-centered  {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
-}
 
 #about {
   padding: var(--default-size) 0;
@@ -507,68 +459,70 @@ canvas {
 }
 
 #project .tab-content .animate_card .card_img {
-  height: 	32rem;
+	width: 11rem;
+  height: 	16rem;
   border-radius: 10px;
 }
 
 @media (max-width: 1199.98px) {
   #project .tab-content .animate_card .card_img {
-    height: 25rem;
+	  width: 11rem;
+    height: 16rem;
 	  border-radius: 10px;
 	
   }
 }
 .card_img1{
-	width: 25rem;
-	height: 25rem;
+	width: 16rem;
+	height: 16rem;
 	border-radius: 10px;
 }
 @media (max-width: 1199.98px) {
   #project .card_img1 {
-	  width: 25rem;
-    height: 25rem;
+	  width: 16rem;
+    height: 16rem;
 	  border-radius: 10px;
 	
   }
 }
 
 .card_img2{
-	width: 38rem;
-	height: 22rem;
+	width: 28rem;
+	height: 16rem;
 	border-radius: 10px;
 }
 @media (max-width: 1199.98px) {
   #project .card_img2 {
-	  width: 38rem;
-    height: 22rem;
+	  width: 23rem;
+    height: 14rem;
 	  border-radius: 10px;
 	
   }
 }
 
 .card_img3{
-	width: 38rem;
-	height: 38rem;
+	width: 16rem;
+	height: 16rem;
 	border-radius: 10px;
 }
 @media (max-width: 1199.98px) {
   #project .card_img3 {
-	  width: 38rem;
-    height: 38rem;
+	  width: 16rem;
+    height: 16rem;
 	  border-radius: 10px;
 	
   }
 }
 
 .card_img4{
-	width: 19rem;
-	height: 34rem;
+	width: 10rem;
+	height: 16rem;
 	border-radius: 10px;
 }
 @media (max-width: 1199.98px) {
   #project .card_img4 {
-	  width: 38rem;
-    height: 22rem;
+	  width: 10rem;
+    height: 16rem;
 	  border-radius: 10px;
 	
   }
