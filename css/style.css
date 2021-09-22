@@ -691,7 +691,7 @@ canvas {
 .contact-part {
   background-color: var(--ternary-light);
   color: var(--white);
-  margin-top: var(--default-size);
+  /* margin-top: var(--default-size); */
 }
 
 .contact-part #contact {
